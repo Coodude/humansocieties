@@ -1,0 +1,103 @@
+
+h1 {
+  color: white;
+  font-family: 'Atma', cursive;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 10px 10px grey;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 90%;
+  border: grey 3px solid;
+}
+
+body {
+  margin: 0%;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:  url(../images/banner.jpg);
+  margin: auto;
+  padding: 75px;
+
+}
+
+section {
+  width:100%;
+  background-color: #399067;
+  margin: auto;
+  padding: 50px;
+}
+
+footer {
+  width: 100%;
+  background-color: #399067;
+  padding: 20px;
+}
+
+/*parrallax background*/
+
+#image1 {
+  background-image: url(../images/image1.JPG);
+  background-size: 250px;
+  width: initial;
+  height: 300px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+ 
+#image2 {
+   
+  background-image: url(../images/image2.JPG);
+  background-size: 250px;
+  width: initial;
+  height: 300px;
+  background-attachment: fixed;
+  background-repeat: repeat
+  }
+
+#image3 
+{
+  background-image: url(../images/image3.JPG);
+ background-size: 250px;
+  width: initial;
+  height: 300px;
+  background-attachment: fixed;
+  background-repeat: repeat
+  }
+
+
+/*navbar code */
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  justify-context: space-between;
+  align-items: center;
+  background-color: white;
+  color: white;
+}
+
+#navbar-links ul {
+ margin: 0;
+ padding: 0;
+ display: flex; 
+}
+
+#navbar-links li {
+list-style: none;
+}
+
+#navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+}
