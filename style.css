@@ -6,9 +6,9 @@ h1 {
   text-align: center;
   text-shadow: 10px 10px grey;
   background-color: black;
-  padding-left: 10px;
-  padding-right: 10px;
-  opacity: 90%;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 75%;
   border: grey 3px solid;
 }
 
@@ -23,7 +23,9 @@ header {
   background-size: cover;
   background-image:  url(../images/banner.jpg);
   margin: auto;
-  padding: 75px;
+  padding: 50px;
+  padding-left: 25%;
+  padding-right: 25%;
 
 }
 
