@@ -1,16 +1,17 @@
 
 h1 {
-  color: white;
+  color: red;
   font-family: 'Atma', cursive;
   font-size: 100px;
   text-align: center;
-  text-shadow: 10px 10px grey;
+  text-shadow: 3px 3px darkred;
   background-color: black;
   padding-left: 50px;
   padding-right: 50px;
   opacity: 75%;
-  border: grey 3px solid;
+  border:red 3px solid;
 }
+
 
 body {
   margin: 0%;
@@ -27,18 +28,21 @@ header {
   padding-left: 25%;
   padding-right: 25%;
 
+
+
+
 }
 
 section {
   width:100%;
-  background-color: #399067;
+  background-color:rgb(150, 14, 14) ;
   margin: auto;
   padding: 50px;
 }
 
 footer {
   width: 100%;
-  background-color: #399067;
+  background-color: red;
   padding: 20px;
 }
 
@@ -51,6 +55,7 @@ footer {
   height: 300px;
   background-attachment: fixed;
   background-repeat: repeat;
+  background-color: rgb(152, 182, 192);
 }
  
 #image2 {
@@ -60,7 +65,8 @@ footer {
   width: initial;
   height: 300px;
   background-attachment: fixed;
-  background-repeat: repeat
+  background-repeat: repeat;
+  background-color: rgb(152, 182, 192);
   }
 
 #image3 
@@ -70,7 +76,8 @@ footer {
   width: initial;
   height: 300px;
   background-attachment: fixed;
-  background-repeat: repeat
+  background-repeat: repeat;
+  background-color: rgb(152, 182, 192);
   }
 
 
@@ -102,4 +109,16 @@ list-style: none;
   color: black;
   padding: 1rem;
   display: block;
+}
+
+@media only screen and (max-width: 1100px) {
+  h1 {
+  font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 40px;
+  }
 }
