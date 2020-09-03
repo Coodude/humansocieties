@@ -35,11 +35,14 @@ h2 {
 text-align: center;
 color: white;
 font-family: 'Sofia', cursive;
+font-size: 60px;
 }
 
 p {
 color: white;
-
+font-size: 20px;
+font-family: 'Baloo 2';
+text-align: center;
 }
 section {
   width:100%;
@@ -59,34 +62,35 @@ footer {
 
 #image1 {
   background-image: url(../images/image1.JPG);
-  background-size: 250px;
+  background-size: cover;
   width: initial;
   height: 300px;
   background-attachment: fixed;
-  background-repeat: repeat;
+   background-repeat: no-repeat;
   background-color: #B30059;
 }
  
 #image2 {
    
   background-image: url(../images/image2.JPG);
-  background-size: 250px;
+  background-size: cover;
   width: initial;
   height: 300px;
   background-attachment: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;  
   background-color: #B30059;
   }
 
 #image3 
 {
   background-image: url(../images/image3.JPG);
- background-size: 250px;
+ background-size: cover;
   width: initial;
   height: 300px;
   background-attachment: fixed;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-color: #B30059;
+  
   }
 
 
