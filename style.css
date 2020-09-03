@@ -1,15 +1,16 @@
 
 h1 {
-  color: red;
+  color: #FF1814;
   font-family: 'Atma', cursive;
   font-size: 100px;
   text-align: center;
-  text-shadow: 3px 3px darkred;
+  text-shadow: 4px 4px darkred;
   background-color: black;
   padding-left: 50px;
   padding-right: 50px;
   opacity: 75%;
-  border:red 3px solid;
+  border:#FF1814 3px solid;
+ 
 }
 
 
@@ -28,21 +29,29 @@ header {
   padding-left: 25%;
   padding-right: 25%;
 
-
-
-
 }
 
+h2 {
+text-align: center;
+color: white;
+font-family: 'Sofia', cursive;
+}
+
+p {
+color: white;
+
+}
 section {
   width:100%;
-  background-color:rgb(150, 14, 14) ;
+  background-color: #BF0029 ;
   margin: auto;
   padding: 50px;
+  
 }
 
 footer {
   width: 100%;
-  background-color: red;
+  background-color: #FF1814;
   padding: 20px;
 }
 
@@ -55,7 +64,7 @@ footer {
   height: 300px;
   background-attachment: fixed;
   background-repeat: repeat;
-  background-color: rgb(152, 182, 192);
+  background-color: #B30059;
 }
  
 #image2 {
@@ -66,7 +75,7 @@ footer {
   height: 300px;
   background-attachment: fixed;
   background-repeat: repeat;
-  background-color: rgb(152, 182, 192);
+  background-color: #B30059;
   }
 
 #image3 
@@ -77,7 +86,7 @@ footer {
   height: 300px;
   background-attachment: fixed;
   background-repeat: repeat;
-  background-color: rgb(152, 182, 192);
+  background-color: #B30059;
   }
 
 
